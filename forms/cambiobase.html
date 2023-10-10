@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMBIO BASE</title>
+</head>
+<body>
+    <h1>CAMBIO BASE</h1>
+    <form action="cambiobase.php" method="post">
+        <label for="op1">Operando1</label>
+        <input type="text" name="op1"><br><br><br>
+        <p>Selecciona operacion:</p>
+        <label for="Binario">Binario</label>
+        <input type="radio" name="operacion" value="Binario"><br>
+        <label for="Octal">Octal</label>
+        <input type="radio" name="operacion" value="Octal"><br>
+        <label for="Hexadecimal">Hexadecimal</label>
+        <input type="radio" name="operacion" value="Hexadecimal"><br>
+        <label for="Todos">Todos los sistemas</label>
+        <input type="radio" name="operacion" value="Todos"><br>
+        <br>
+        <input type="submit" name="enviar" value="enviar">
+        <input type="reset" name="borrar" value="borrar">
+    </form>
+</body>
+</html>

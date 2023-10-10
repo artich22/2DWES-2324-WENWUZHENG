@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <form action="calculadora.php" method="post">
+        <label for="op1">Operando1</label>
+        <input type="text" name="op1"><br><br><br>
+        <label for="op2">Operando2</label>
+        <input type="text" name="op2">
+        <br><br><br><br>
+        <p>Selecciona operacion:</p>
+        <label for="Suma">Suma</label>
+        <input type="radio" name="operacion" value="Suma"><br>
+        <label for="Resta">Resta</label>
+        <input type="radio" name="operacion" value="Resta"><br>
+        <label for="Producto">Producto</label>
+        <input type="radio" name="operacion" value="Producto"><br>
+        <label for="division">Division</label>
+        <input type="radio" name="operacion" value="Division"><br>
+        <br>
+        <input type="submit" name="enviar" value="enviar">
+        <input type="reset" name="borrar" value="borrar">
+    </form>
+</body>
+</html>
